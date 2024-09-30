@@ -1,0 +1,4 @@
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/build/CMakeFiles/test_binary_search.dir
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/build/CMakeFiles/test.dir
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/build/CMakeFiles/edit_cache.dir
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/build/CMakeFiles/rebuild_cache.dir

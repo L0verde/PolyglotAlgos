@@ -1,0 +1,1 @@
+/sbin/c++ CMakeFiles/test_binary_search.dir/src/read_arrays_from_db.cpp.o CMakeFiles/test_binary_search.dir/tests/binary_search_gTest.cpp.o -o test_binary_search  /usr/lib/libgtest.so.1.15.2 /usr/lib/libsqlite3.so -lpthread

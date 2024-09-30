@@ -1,0 +1,75 @@
+Start testing: Sep 29 19:41 MDT
+----------------------------------------------------------
+1/1 Testing: BinarySearchTest
+1/1 Test: BinarySearchTest
+Command: "/home/ghost/Learning-Space/algorithms/binary_search/cpp/build/test_binary_search"
+Directory: /home/ghost/Learning-Space/algorithms/binary_search/cpp/build
+"BinarySearchTest" start time: Sep 29 19:41 MDT
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from BinarySearchTest
+[ RUN      ] BinarySearchTest.TargetPresent
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/tests/binary_search_gTest.cpp:8: Failure
+Expected equality of these values:
+  binarySearch(arr, 3)
+    Which is: -1
+  1
+
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/tests/binary_search_gTest.cpp:11: Failure
+Expected equality of these values:
+  binarySearch(arr, 11)
+    Which is: -1
+  4
+
+[  FAILED  ] BinarySearchTest.TargetPresent (0 ms)
+[ RUN      ] BinarySearchTest.TargetAbsent
+[       OK ] BinarySearchTest.TargetAbsent (0 ms)
+[ RUN      ] BinarySearchTest.EmptyArray
+[       OK ] BinarySearchTest.EmptyArray (0 ms)
+[ RUN      ] BinarySearchTest.SingleElementArray
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/tests/binary_search_gTest.cpp:29: Failure
+Expected equality of these values:
+  binarySearch(arr, 5)
+    Which is: -1
+  0
+
+[  FAILED  ] BinarySearchTest.SingleElementArray (0 ms)
+[ RUN      ] BinarySearchTest.NegativeNumbers
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/tests/binary_search_gTest.cpp:36: Failure
+Expected equality of these values:
+  binarySearch(arr, 0)
+    Which is: 4
+  3
+
+[  FAILED  ] BinarySearchTest.NegativeNumbers (0 ms)
+[ RUN      ] BinarySearchTest.TargetAtBounds
+/home/ghost/Learning-Space/algorithms/binary_search/cpp/tests/binary_search_gTest.cpp:43: Failure
+Expected equality of these values:
+  binarySearch(arr, 5)
+    Which is: -1
+  4
+
+[  FAILED  ] BinarySearchTest.TargetAtBounds (0 ms)
+[----------] 6 tests from BinarySearchTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] BinarySearchTest.TargetPresent
+[  FAILED  ] BinarySearchTest.SingleElementArray
+[  FAILED  ] BinarySearchTest.NegativeNumbers
+[  FAILED  ] BinarySearchTest.TargetAtBounds
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"BinarySearchTest" end time: Sep 29 19:41 MDT
+"BinarySearchTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 29 19:41 MDT
